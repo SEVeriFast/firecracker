@@ -165,7 +165,7 @@ impl FwCfg {
             cmd: None,
             cur_phdr: 0,
             seg_pos: 0,
-            state: State::WriteKernelType,
+            state: State::WriteElfHdr,
         };
 
         //Try to parallelize this somehow in the future
